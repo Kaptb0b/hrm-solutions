@@ -1,0 +1,20 @@
+Countdown year 19  10/82  11/85
+from line 12
+A: 
+inbox
+copyto 0
+jump-N
+from line 19
+from line 13
+B:
+outbox
+Bump - 0
+jump-N A:
+jump B:
+from line 6
+from line 20
+C:
+outbox
+Bump + 0
+Jump-Z A: (end)
+jump C: (start)
